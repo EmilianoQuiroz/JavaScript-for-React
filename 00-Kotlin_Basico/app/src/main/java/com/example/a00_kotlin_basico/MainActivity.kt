@@ -22,6 +22,18 @@ class MainActivity : AppCompatActivity() {
         /* Imprimimos en consola el valor y la variable*/
         println(nombre)
         println(fecha)
+        /******************************/
+        /** Tipos de datos en Kotlin **/
+        /******************************/
+        /*En el siguiente ejemplo, count es una variable de tipo Int asignada a un valor inicial de 10:*/
+        var count: Int = 123
+
+        /*Los strings en Kotlin son tipos de datos que van a contener cadenas de caracteres (texto)*/
+        var color1: String = "rojo"
+
+        //Impresion por consola de los tipos de datos
+        println(count)
+        println(color1)
 
     }
 }
